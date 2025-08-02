@@ -7,6 +7,8 @@ MCP Weather is a Model Context Protocol (MCP) server that provides current weath
 - 🌤️ Fetches current weather data by city name
 - 🌡️ Returns temperature, humidity, wind speed, cloud cover, and precipitation
 
+![Screenshot of MCP Weather](screenshots/screenshot1.png)
+
 ## Getting Started
 
 ### Prerequisites
@@ -56,7 +58,3 @@ Here’s the current weather in Tuticorin:
 - Cloud Cover: 100% (overcast)
 - Precipitation: 0 mm (no rain)
 ```
-
-## Author
-
-Vinoth
