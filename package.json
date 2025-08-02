@@ -1,0 +1,38 @@
+{
+  "name": "mcp-weather",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server to provide weather data",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch:": "tsc --watch",
+    "dev": "tsx src/main.ts",
+    "inspect": "npx @modelcontextprotocol/inspector npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinothvino42/mcp-weather.git"
+  },
+  "keywords": [
+    "mcp",
+    "server",
+    "weather",
+    "api"
+  ],
+  "author": "Vinoth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinothvino42/mcp-weather/issues"
+  },
+  "homepage": "https://github.com/vinothvino42/mcp-weather#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/inspector": "^0.16.2",
+    "tsx": "^4.20.3"
+  }
+}

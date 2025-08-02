@@ -1,0 +1,13 @@
+{
+	"servers": {
+		"mcp-weather": {
+			"type": "stdio",
+			"command": "npm",
+			"args": [
+				"run",
+				"dev"
+			]
+		}
+	},
+	"inputs": []
+}
